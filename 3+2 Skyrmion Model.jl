@@ -1,6 +1,7 @@
 using Random, PyCall, LinearAlgebra, StaticArrays, Printf, HDF5
 @pyimport matplotlib.pyplot as plt
 @pyimport mpl_toolkits.mplot3d as mplot3d
+@pyimport matplotlib.ticker as ticker
 
 # Parameters
 Nx = 50  # Lattice size in x-direction
